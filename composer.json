@@ -1,0 +1,16 @@
+{
+    "name": "xbusinessgrants/x-business-grant",
+    "description": "Nigerian Business Grant Application Portal",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-fileinfo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "includes/"
+        }
+    }
+}
